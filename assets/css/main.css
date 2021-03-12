@@ -1,0 +1,22 @@
+body {
+    background-color: crimson;
+    margin: 0px;
+}
+main {
+    position:relative;
+    background-color: beige;
+    margin:auto;
+    top:+100px;
+    width: 50vw;
+    height:400px;
+}
+nav {
+    background-color: aquamarine;
+}
+
+article {
+    background-color: greenyellow;
+}
+#experience, #programming, #security {
+    display:none;
+}
