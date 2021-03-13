@@ -1,11 +1,11 @@
 body {
-    background-color: crimson;
+    background-color: #073B4C;
     margin: 0px;
     font-family: Arial;
 }
 main {
     position:relative;
-    background-color: beige;
+    background-color: white;
     margin:auto;
     top:+100px;
     width: 50vw;
@@ -22,29 +22,29 @@ nav a {
     padding:10px;
     text-decoration: none;
     vertical-align: center;
-    border-left: 1px dotted crimson;
+    border-left: 1px dotted #073B4C;
     color:grey;
 }
 nav a:hover {
-    background-color: crimson;
-    color: beige;
+    background-color: #073B4C;
+    color: white;
     cursor:pointer;
 }
 nav .active{
-    background-color: #C41F40;
-    color:beige;
+    background-color: #118AB2;
+    color:white;
 }
 nav h1 {
     padding:10px 30px;
     margin:0;
-    color:crimson;
+    color: #118AB2;
     font-size: 18px;
 }
 nav {
     width:100%;
     display: flex;
     flex-direction: row;
-    border-bottom: 1px dotted crimson;
+    border-bottom: 1px dotted #073B4C;
 }
 @media screen and (max-width: 700px) {
  nav {
@@ -52,13 +52,14 @@ nav {
  }
     main {
         height:auto;
+        top:+40px;
     }
 }
 article {
     padding: 30px;
     width:100%;
 }
-#experience, #programming, #security {
+#experience, #coding, #security {
     display:none;
 }
 section {
@@ -69,18 +70,21 @@ section {
 header {
     padding: 10px;
     height: 100%;
-    border-right: 1px dotted crimson;
+    border-right: 1px dotted #073B4C;
 }
 header img {
     width:150px;
-    padding:10px;
+    margin:10px;
+    box-shadow: 0 0 3px grey;
 }
 header h2 {
     padding:10px;
     margin:0;
-    color:grey;
-    font-size: 14px;
+    color: #073B4C;
+    font-size: 10px;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 header span {
     display:block;

@@ -2,6 +2,7 @@
 <head>
     <title>SANDERC.NET</title>
     <link rel="stylesheet" href="./assets/css/source.css">
+    <script src="assets/css/tabs.js"></script>
 </head>
 <body>
 <main>
@@ -9,16 +10,16 @@
         <h1>
             SANDERC.NET
         </h1>
-        <a class="active">
+        <a onclick="switchTab('intro')" id="nav_intro" class="active">
             Introduction
         </a>
-        <a>
+        <a onclick="switchTab('experience')" id="nav_experience">
             Experience
         </a>
-        <a>
-            Programming
+        <a onclick="switchTab('coding')" id="nav_coding">
+            Coding
         </a>
-        <a>
+        <a onclick="switchTab('security')" id="nav_security">
             Security
         </a>
     </nav>
@@ -48,7 +49,7 @@
             <h3>Experience</h3>
             <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.</p>
         </article>
-        <article id="programming">
+        <article id="coding">
             <h3>Coding</h3>
             <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.</p>
         </article>
