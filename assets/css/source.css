@@ -10,30 +10,62 @@ main {
     top:+100px;
     width: 50vw;
     height:400px;
-    box-shadow: black;
+    box-shadow: grey 0 0 8px;
     border-radius: 10px;
 }
-nav > ul {
-    list-style-type: none;
-    padding:0;
-}
-nav > ul > li {
-    margin:0;
+nav a {
     padding:10px;
-    text-align: center;
+    text-decoration: none;
+    vertical-align: center;
+    border-left: 1px dotted crimson;
+    color:grey;
+}
+nav a:hover {
+    background-color: crimson;
+    color: beige;
+    cursor:pointer;
+}
+nav h1 {
+    padding:10px;
+    margin:0;
+    color:crimson;
+    font-size: 18px;
 }
 nav {
-    width:150px;
-    height: 100%;
-    position:relative;
-    top: -16px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px dotted crimson;
 }
 article {
-    background-color: greenyellow;
+    padding: 30px;
+    width:100%;
 }
 #experience, #programming, #security {
     display:none;
 }
 section {
-    display: inline-block;
+    display:flex;
+    flex-direction: row;
+    height:100%;
+}
+header {
+    padding: 10px;
+    height: 100%;
+    border-right: 1px dotted crimson;
+}
+header img {
+    width:150px;
+    padding:10px;
+}
+header h2 {
+    padding:10px;
+    margin:0;
+    color:grey;
+    font-size: 14px;
+}
+header span {
+    display:block;
+    padding:5px;
+    text-align: center;
 }
