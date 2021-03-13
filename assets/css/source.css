@@ -9,7 +9,7 @@ main {
     margin:auto;
     top:+100px;
     width: 50vw;
-    height:450px;
+    height:auto;
     box-shadow: grey 0 0 8px;
     border-radius: 10px;
 }
