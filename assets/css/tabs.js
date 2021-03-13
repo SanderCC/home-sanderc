@@ -1,4 +1,4 @@
-let tabs = ["intro","experience","coding","security"]
+let tabs = ["intro","experience","coding","security","works"]
 
 function switchTab(tab="intro"){
     console.log("Starting switchTab()");

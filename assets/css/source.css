@@ -50,8 +50,11 @@ article {
     padding: 30px;
     width:100%;
 }
-#experience, #coding, #security {
+article {
     display:none;
+}
+article#intro {
+    display:block;
 }
 section {
     display:flex;
