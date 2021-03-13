@@ -13,6 +13,11 @@ main {
     box-shadow: grey 0 0 8px;
     border-radius: 10px;
 }
+@media screen and (max-width: 1400px) {
+    main {
+        width:80vw;
+    }
+}
 nav a {
     padding:10px;
     text-decoration: none;
@@ -25,8 +30,12 @@ nav a:hover {
     color: beige;
     cursor:pointer;
 }
+nav .active{
+    background-color: #C41F40;
+    color:beige;
+}
 nav h1 {
-    padding:10px;
+    padding:10px 30px;
     margin:0;
     color:crimson;
     font-size: 18px;
@@ -36,6 +45,14 @@ nav {
     display: flex;
     flex-direction: row;
     border-bottom: 1px dotted crimson;
+}
+@media screen and (max-width: 700px) {
+ nav {
+     flex-direction: column;
+ }
+    main {
+        height:auto;
+    }
 }
 article {
     padding: 30px;
@@ -63,6 +80,7 @@ header h2 {
     margin:0;
     color:grey;
     font-size: 14px;
+    text-align: center;
 }
 header span {
     display:block;
