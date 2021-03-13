@@ -46,15 +46,6 @@ nav {
     flex-direction: row;
     border-bottom: 1px dotted #073B4C;
 }
-@media screen and (max-width: 700px) {
- nav {
-     flex-direction: column;
- }
-    main {
-        height:auto;
-        top:+40px;
-    }
-}
 article {
     padding: 30px;
     width:100%;
@@ -90,4 +81,21 @@ header span {
     display:block;
     padding:5px;
     text-align: center;
+}
+@media screen and (max-width: 700px) {
+    nav {
+        flex-direction: column;
+    }
+    main {
+        height:auto;
+        top:+40px;
+    }
+    header img {
+        width:100px;
+        margin:5px;
+        box-shadow: 0 0 3px grey;
+    }
+    header {
+        font-size: 10px;
+    }
 }
