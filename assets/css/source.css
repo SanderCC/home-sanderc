@@ -1,6 +1,7 @@
 body {
     background-color: crimson;
     margin: 0px;
+    font-family: Arial;
 }
 main {
     position:relative;
@@ -9,14 +10,30 @@ main {
     top:+100px;
     width: 50vw;
     height:400px;
+    box-shadow: black;
+    border-radius: 10px;
+}
+nav > ul {
+    list-style-type: none;
+    padding:0;
+}
+nav > ul > li {
+    margin:0;
+    padding:10px;
+    text-align: center;
 }
 nav {
-    background-color: aquamarine;
+    width:150px;
+    height: 100%;
+    position:relative;
+    top: -16px;
 }
-
 article {
     background-color: greenyellow;
 }
 #experience, #programming, #security {
     display:none;
+}
+section {
+    display: inline-block;
 }
